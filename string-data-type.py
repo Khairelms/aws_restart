@@ -1,0 +1,21 @@
+# String data type
+myString = "This is a string."
+print(myString)
+print(type(myString))
+print(f"{myString} is of the data type {type(myString)}")
+
+# String concatenation
+firstString = "Water"
+secondString = "fall"
+thirdString = firstString + secondString
+print(thirdString)
+
+# input strings
+name = input("what is your name?")
+print(name)
+
+# Formatting output strings
+color = input("What is your favorite color?  ")
+animal = input("What is your favorite animal?  ")
+print("{}, you like a {} {}!".format(name,color,animal))
+
